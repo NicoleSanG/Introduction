@@ -1,0 +1,634 @@
+:root {
+  --background: #ddc5ff;
+  --text: white;
+  --hover: #7f00ff;
+  --light-purple: #896ffa;
+  --light-aquamarine: #cefffc;
+  --shadow: #81f;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+  text-align: center;
+  text-wrap: balance;
+}
+body h1 {
+  font-size: 42px;
+}
+body h2 {
+  font-size: 34px;
+}
+body p {
+  font-size: 18px;
+}
+body hr {
+  color: var(--shadow);
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--text);
+}
+/*NAVBAR*/
+.home-btn {
+  padding-left: 10%;
+  text-align: left;
+  display: flex;
+}
+.home-btn:hover{
+    color: var(--text);
+}
+.up {
+  width: 30px;
+  height: 30px;
+}
+
+.container-fluid {
+  font-size: 16px;
+}
+.navbar-brand {
+  color: var(--hover);
+  font-family: "Mr Dafoe", cursive;
+  font-size: 50px;
+  margin-left: 10%;
+}
+.navbar-brand:visited {
+  color: var(--hover);
+}
+.navbar-brand:hover {
+  color: var(--text);
+  font-family: "Mr Dafoe", cursive;
+}
+.navbar-toggler {
+  color: var(--hover);
+  border-color: var(--hover);
+}
+.navbar-nav {
+  gap: 3rem;
+}
+.nav-link {
+  color: var(--hover);
+  font-size: 25px;
+}
+.nav-link:visited {
+  color: var(--hover);
+}
+.nav-link:hover {
+  color: var(--text);
+}
+/*NAVBAR*/
+
+/*HOME*/
+#home h1,
+h2 {
+  text-shadow: 0.1em 0.1em 0.2em var(--shadow);
+}
+.home-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 2rem;
+  color: white;
+}
+.hi-nicole {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.profile-pic {
+  width: 360px;
+  height: 350px;
+  filter: drop-shadow(19px 6px 17px var(--hover));
+  margin-bottom: 3rem;
+}
+.hi {
+  font-size: 25px;
+  text-shadow: 0.1em 0.1em 0.2em var(--shadow);
+  color: var(--hover);
+  font-weight: 500;
+}
+.hi:hover {
+  color: var(--text);
+}
+
+.last-paragraph {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+/*HOME*/
+
+/*HOBBIES*/
+.travel {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:auto;
+  justify-content: center;
+  text-align: center;
+}
+.travel1 {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  width: 600px;
+}
+.art {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.art1 {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  width: 600px;
+}
+.carousel-caption {
+  color: var(--shadow);
+}
+
+.carrousel-pics {
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+}
+.art-examples {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.concerts {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+  text-align: center;
+}
+.singers {
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.concerts1 {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  width: 600px;
+}
+/*HOBBIES*/
+/*SONGS*/
+#songs .navbar-brand {
+  text-align: left;
+  display: flex;
+}
+#songs h3 {
+  font-size: 18px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.cover-pics {
+  width: 230px;
+  height: 230px;
+  transition: 0.3s ease;
+}
+.cover-pics:hover {
+  transform: scale(1.6);
+  filter: drop-shadow(18px 5px 16px var(--hover));
+}
+.cover {
+  display: flex;
+  flex-direction: wrap;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+  align-items: center;
+}
+/*SONGS*/
+/*MOVIES*/
+#movies .navbar-brand {
+  text-align: left;
+  display: flex;
+}
+.reasons {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  background-color: none;
+}
+.card {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  perspective: 1000px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-color: var(--background);
+  border: none;
+}
+.card .back p {
+  text-align: center;
+  margin-top: 5rem;
+  color: var(--shadow);
+}
+.card .front,
+.card .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.8s ease;
+}
+
+.card .front {
+  transform: rotateY(0deg);
+}
+
+.card .back {
+  transform: rotateY(180deg);
+}
+
+.card:hover .front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .back {
+  transform: rotateY(0deg);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+/*MOVIES*/
+
+/*CONTACT*/
+#contactme .navbar-brand {
+  text-align: left;
+  display: flex;
+}
+#contactme h2{
+    margin-bottom: 5rem;
+}
+.message {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.socialmedia{
+    margin-top: 3rem;
+  }
+  .image:hover {
+    box-shadow: 0 1px 1px, 0 0 10px var(--hover);
+    border-radius: 8px;
+  }
+.lets-connect {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  margin-left: 20%;
+}
+.container2 {
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  margin-right: 20%;
+}
+
+.contact-text {
+  text-align: start;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 15px;
+  background-color: white;
+  border-color: var(--hover);
+  padding: 10px 60px;
+  border-radius: 10px;
+  color: var(--hover);
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+textarea:focus,
+input:focus,
+input[type]:focus {
+  border-color: var(--light-aquamarine);
+  box-shadow: 0 1px 1px, 0 0 10px var(--hover);
+  outline: none;
+}
+.btn-form {
+  background-color:var(--light-purple);
+  color: white;
+  border-color: transparent;
+  border-radius: 7px;
+  float: right;
+  font-size: large;
+  width: 120px;
+  height: 40px;
+}
+
+.btn-form:hover {
+  background-color: var(--hover);
+  box-shadow: 0 1px 1px, 0 0 10px var(--hover);
+}
+
+.socialmedia-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+/*CONTACT*/
+
+
+
+@media (max-width: 767px) {
+  body h1 {
+    font-size: 25px;
+  }
+  body h2 {
+    font-size: 20px;
+  }
+  body p {
+    font-size: 16px;
+  }
+  .up {
+    width: 20px;
+    height: 20px;
+  }
+
+  .navbar-nav {
+    gap: 0;
+  }
+  #movies .navbar-brand {
+    font-size: 30px;
+    text-align: left;
+    display: flex;
+  }
+  /*HOME*/
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(19px 6px 17px var(--hover) );
+    margin-bottom: 3rem;
+  }
+  .home-text {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto, auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .last-paragraph {
+    margin: 0 10% 0 10%;
+  }
+  /*HOME*/
+  /*HOBBIES*/
+  #hobbies {
+    margin-top: 2rem;
+  }
+  .travel {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-items: center;
+  }
+  .travel1 {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+  }
+  .carrousel-pics {
+    width: 50%;
+    height: 80%;
+  }
+  .art {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .art1 {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+  }
+  .art-examples {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+  }
+
+  .concerts {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-items: center;
+  }
+  .singers {
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+  }
+
+  .concerts1 {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+  }
+  /*HOBBIES*/
+  /*SONGS*/
+
+  .cover-pics {
+    width: 150px;
+    height: 150px;
+    transition: 0.3s ease;
+  }
+  .cover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .container3 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .playlist {
+    width: 20rem;
+    height: 20rem;
+  }
+  /*SONGS*/
+  /*MOVIES*/
+
+  .reasons {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: none;
+  }
+  .card {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    perspective: 1000px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: var(--background);
+    border: none;
+  }
+  .card .back p {
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--shadow);
+  }
+  .card .front,
+  .card .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.8s ease;
+  }
+
+  .card .front {
+    transform: rotateY(0deg);
+  }
+
+  .card .back {
+    transform: rotateY(180deg);
+  }
+
+  .card:hover .front {
+    transform: rotateY(180deg);
+  }
+
+  .card:hover .back {
+    transform: rotateY(0deg);
+  }
+
+  .card img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    transition: 0.3s ease;
+  }
+  .youtube{
+    width: 300px;
+}
+  /*MOVIES*/
+  /*CONTACT*/
+  #contactme h2{
+    margin-bottom: 1rem;
+  }
+  .message {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto, auto;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .lets-connect {
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .lets-connect > p {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+ 
+  .image {
+    width: 50px;
+    width: 50px;
+  }
+
+  .container2 {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .contact-text {
+    max-width: 380px;
+    margin: auto;
+  }
+
+  .btn-form {
+    margin-top: 1rem;
+    float: right;
+    font-size: large;
+    width: 120px;
+    height: 40px;
+  }
+}
